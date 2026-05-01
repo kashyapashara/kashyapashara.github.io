@@ -1,0 +1,254 @@
+{
+  "personal": {
+    "name": "Kashyap Ashara",
+    "title": "Technical Lead - Engineering",
+    "tagline": "React • TypeScript • Microfrontends • 8+ Years",
+    "email": "kashyap.dj9350@gmail.com",
+    "github": "https://github.com/kash9350",
+    "linkedin": "https://linkedin.com/in/kashyap-ashara"
+  },
+  "about": "Technical Lead with 8+ years of experience building scalable React applications. Specialized in Microfrontend Architecture, Frontend Design Systems, and high-performance web applications. Currently leading React component library management and microfrontend integration. Passionate about clean code, developer experience, and modern frontend patterns.",
+  "skillCategories": [
+    {
+      "id": "frontend-core",
+      "category": "Frontend Technologies",
+      "skills": [
+        { "id": "react", "name": "React.js", "level": 95 },
+        { "id": "typescript", "name": "TypeScript", "level": 90 },
+        { "id": "javascript", "name": "JavaScript (ES6+)", "level": 92 }
+      ]
+    },
+    {
+      "id": "styling",
+      "category": "Styling & UI",
+      "skills": [
+        { "id": "tailwind", "name": "Tailwind CSS", "level": 88 },
+        { "id": "css", "name": "CSS/SCSS", "level": 90 },
+        { "id": "material-ui", "name": "Material-UI", "level": 82 },
+        { "id": "storybook", "name": "Storybook", "level": 85 }
+      ]
+    },
+    {
+      "id": "architecture",
+      "category": "Architecture & Patterns",
+      "skills": [
+        { "id": "microfrontends", "name": "Microfrontends", "level": 70 },
+        { "id": "module-federation", "name": "Module Federation", "level": 80 },
+        { "id": "design-systems", "name": "Design Systems", "level": 84 },
+        { "id": "frontend-arch", "name": "Frontend Architecture", "level": 80 },
+        { "id": "component-design", "name": "Component Design", "level": 86 }
+      ]
+    },
+    {
+      "id": "tools",
+      "category": "Tools & Build Systems",
+      "skills": [
+        { "id": "webpack", "name": "Webpack", "level": 75 },
+        { "id": "vite", "name": "Vite", "level": 60 },
+        { "id": "nextjs", "name": "Next.js", "level": 75 },
+        { "id": "rollup", "name": "Rollup", "level": 70 }
+      ]
+    },
+    {
+      "id": "testing",
+      "category": "Testing & Quality",
+      "skills": [
+        { "id": "jest", "name": "Jest", "level": 75 },
+        { "id": "react-testing", "name": "React Testing Library", "level": 75 },
+        { "id": "cypress", "name": "Cypress", "level": 70 },
+        { "id": "performance", "name": "Performance Optimization", "level": 75 }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "crest-data-systems-netskope",
+      "company": "Crest Data Systems",
+      "role": "Technical Lead",
+      "duration": "2023 - Present",
+      "location": "Ahmedabad, India",
+      "employmentType": "full-time",
+      "description": "Create and maintain a comprehensive React component library integrated with a Rollup-based module federation setup",
+      "longDescription": "Managed the creation and maintenance of a comprehensive React component library integrated with a Rollup-based module federation setup. Designed and implemented multitenancy patterns for enterprise SaaS platform. Managed integration of React microfrontend with existing Angular applications, ensuring seamless cross-framework communication. Focused on developer experience, performance optimization, and design system scalability. Mentored junior developers on React best practices, microfrontend patterns, and frontend architecture principles.",
+      "technologies": ["React", "TypeScript", "Module Federation", "Rollup", "Yarn", "Tailwind CSS", "Storybook", "Jest", "Cypress"],
+      "achievements": [
+        "Architected and implemented React component library used by 50+ developers",
+        "Reduced bundle size by 35% through code splitting and lazy loading",
+        "Maintained component library documentation and usage guidelines",
+        "Implemented design system consistency across multiple teams",
+        "Internationalization support for multi-language applications",
+        "Implemented WCAG 2.1 compliance across all components",
+        "Mentored 5+ junior developers on frontend architecture",
+        "Led code review standards adoption"
+      ],
+      "projects": ["project-netskope-microfrontend"]
+    },
+    {
+      "id": "crest-data-systems-lead",
+      "company": "Crest Data Systems",
+      "role": "Technical Lead",
+      "duration": "2021 - 2023",
+      "location": "Ahmedabad, India",
+      "employmentType": "full-time",
+      "description": "Lead React component library management",
+      "longDescription": "Leading the development and maintenance of a comprehensive React component library integrated. Designed and implemented component library patterns and best practices along with team of 5+ developers.",
+      "technologies": ["React", "TypeScript", "Module Federation", "Rollup", "Tailwind CSS", "Storybook", "Jest"],
+      "achievements": [
+        "Architected and implemented React component library used by team of 5+ developers",
+        "Reduced bundle size by 35% through code splitting and lazy loading",
+        "Mentored 5+ junior developers on frontend architecture",
+        "Led code review standards adoption"
+      ],
+      "projects": ["project-armis-lib"]
+    },
+    {
+      "id": "crest-data-systems-devops",
+      "company": "Crest Data Systems",
+      "role": "Senior Software Engineer",
+      "duration": "2021 - 2023",
+      "location": "Ahmedabad, India",
+      "employmentType": "full-time",
+      "description": "Full stack development and DevOps engineering for DevSecOps platform",
+      "longDescription": "Developed and maintained a comprehensive DevSecOps platform using React, JavaScript, Python, and Flask. Implemented CI/CD pipelines for automated testing and deployment. Integrated with Azure services for monitoring and logging. Built PowerBI dashboards for security metrics and reporting.",
+      "technologies": ["React", "JavaScript", "Python", "Flask", "Azure", "PowerBi", "Jest"],
+      "achievements": [
+        "Developed and maintained a comprehensive DevSecOps platform",
+        "Implemented CI/CD pipelines for automated testing and deployment",
+        "Integrated with Azure services for monitoring and logging",
+        "Built PowerBI dashboards for security metrics and reporting"
+      ],
+      "projects": ["project-devsecops"]
+    },
+    {
+      "id": "crest-data-systems-sophos",
+      "company": "Crest Data Systems",
+      "role": "Software Engineer",
+      "duration": "2019 - 2021",
+      "location": "Ahmedabad, India",
+      "employmentType": "full-time",
+      "description": "Develop Third Party integration UI platform for Sophos in Kaseya VSA",
+      "longDescription": "Being part of the team that developed the Third Party integration UI platform for Sophos in Kaseya VSA along with dashboard and reporting features.",
+      "technologies": ["React", "JavaScript", "Bootstrap"],
+      "achievements": [
+        "Developed and maintained the Third Party integration UI platform for Sophos in Kaseya VSA",
+        "Implemented dashboard and reporting features",
+        "Worked on cross-functional teams to deliver features on time"
+      ],
+      "projects": ["project-sophos-kaseya-vsa"]
+    },
+    {
+      "id": "openxcell",
+      "company": "OpenXcell",
+      "role": "Frontend Engineer",
+      "duration": "2018 - 2019",
+      "location": "Ahmedabad, India",
+      "employmentType": "full-time",
+      "description": "Built e-commerce platform with React and Next.js",
+      "longDescription": "Developed responsive e-commerce platform frontend with React 16 and Next.js. Implemented server-side rendering for improved SEO. Built reusable component library with comprehensive documentation. Optimized performance with code splitting and image optimization.",
+      "technologies": ["React", "Next.js", "Redux", "CSS Modules", "Jest"],
+      "achievements": [
+        "Implemented SSR reducing time-to-interactive by 50%",
+        "Built 30+ reusable components with documentation",
+        "Improved Lighthouse score from 65 to 92"
+      ],
+      "projects": ["project-ecommerce","project-seo"]
+    },
+    {
+      "id": "tata-consultancy-services",
+      "company": "Tata Consultancy Services",
+      "role": "Associate System Engineer",
+      "duration": "2016 - 2018",
+      "location": "Pune, India",
+      "employmentType": "full-time",
+      "description": "Built internal tools and applications for extracting frames from Adobe illustrator to use in CGI composer",
+      "longDescription": "Developed internal tools and applications for extracting frames from Adobe illustrator to use in CGI composer. Automating exporting of frames from Adobe illustrator to use in CGI composer for IVI (In-Vehicle Infotainment) systems development.",
+      "technologies": ["CGI composer", "Photoshop", "Illustrator"],
+      "achievements": [
+        "Automated frame extraction process",
+        "Reduced manual effort by 80%",
+        "Improved accuracy and consistency"
+      ],
+      "projects": ["ivi-systems"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-netskope-microfrontend",
+      "title": "Microfrontend Architecture And Component Library",
+      "description": "Module Federation setup for scalable micro frontends",
+      "longDescription": "Implemented a production-grade microfrontend architecture using Webpack Module Federation. Enables independent development and deployment of multiple frontend applications while sharing dependencies. Includes shared design system, routing coordination, and state management across federated modules. Powers the enterprise SaaS platform serving Fortune 500 customers.",
+      "technologies": ["React", "TypeScript", "Webpack", "Module Federation", "Tailwind CSS", "Storybook", "Jest", "Cypress"],
+      "featured": true,
+      "companyId": "crest-data-systems-netskope",
+      "companyName": "Crest Data Systems",
+      "customer": "Netskope",
+      "projectType": "client",
+      "status": "maintained"
+    },
+    {
+      "id": "project-armis-lib",
+      "title": "Armis MSSP Portal - Component Library",
+      "description": "Enterprise-grade React component library with Storybook documentation",
+      "longDescription": "Designed and built a comprehensive React component library serving the Armis MSSP Portal team. Features 100+ components with full TypeScript support, accessibility compliance, and comprehensive Storybook documentation. Implements design system tokens with Tailwind CSS. Includes automated testing, visual regression testing, and CI/CD pipeline for continuous deployment.",
+      "technologies": ["React", "TypeScript", "Material UI", "Storybook", "Jest"],
+      "featured": true,
+      "companyId": "crest-data-systems-lead",
+      "companyName": "Crest Data Systems",
+      "customer": "Armis Security",
+      "projectType": "client",
+      "status": "completed"
+    },
+    {
+      "id": "project-devsecops",
+      "title": "LinkedIn Cloud Security - DevSecOps Platform",
+      "description": "Linkedin Cloud Security is a DevSecOps project where we create, manage and monitor policies and the security of cloud infrastructure using Azure Portal and Azure DevOps.",
+      "longDescription": "To manage the security of cloud infrastructure, we created, managed and monitored policies using Azure Portal and Azure DevOps. Automate policy creation and monitoring using Azure DevOps pipelines. Built dashboards to visualize security metrics and trends. Policy Exemption management and approval workflows.",
+      "technologies": ["React", "JavaScript", "Python", "Flask", "Azure", "PowerBi", "Jest"],
+      "featured": true,
+      "companyId": "crest-data-systems-devops",
+      "companyName": "Crest Data Systems",
+      "customer": "LinkedIn",
+      "projectType": "client",
+      "status": "completed"
+    },
+    {
+      "id": "project-sophos-kaseya-vsa",
+      "title": "Sophos Kaseya VSA",
+      "description": "Sophos Kaseya VSA is a platform for managing and monitoring Kaseya VSA environments for Sophos assets.",
+      "longDescription": "Sophos Kaseya VSA is a platform for managing and monitoring Kaseya VSA environments for Sophos assets. Built a comprehensive React application with ReatJs, Bootstrap, Python backend. Includes dashboards, policy management, and monitoring capabilities.",
+      "technologies": ["React", "JavaScript", "Bootstrap", "Python", "Jest"],
+      "featured": true,
+      "companyId": "crest-data-systems-sophos",
+      "companyName": "Crest Data Systems",
+      "customer": "Sophos",
+      "projectType": "client",
+      "status": "completed"
+    },
+    {
+      "id": "project-seo",
+      "title": "GoodFirms SEO Platform",
+      "description": "Built a comprehensive SEO platform for GoodFirms to track and optimize their website performance.",
+      "longDescription": "Built a comprehensive SEO platform for GoodFirms to track and optimize their website performance. Implemented server-side rendering for SEO optimization and progressive web app features for mobile users.",
+      "technologies": ["React", "Next.js", "Redux", "PWA"],
+      "featured": false,
+      "companyId": "exp-ordertive",
+      "companyName": "Ordertive",
+      "customer": "B2B Retail Clients",
+      "projectType": "internal",
+      "status": "completed"
+    },
+    {
+      "id": "project-ecommerce",
+      "title": "OrderHive",
+      "description": "Full-featured e-commerce Product listing module",
+      "longDescription": "Built a comprehensive e-commerce product listing module for OrderHive, featuring real-time inventory management, payment integration, and order tracking.",
+      "technologies": ["React", "Redux", "PWA", "SprintBoot", "MySQL"],
+      "featured": false,
+      "companyId": "exp-ordertive",
+      "companyName": "Ordertive",
+      "customer": "B2B Retail Clients",
+      "projectType": "internal",
+      "status": "completed"
+    }
+  ]
+}
