@@ -91,7 +91,7 @@ export default function ProjectDetail() {
           <motion.div variants={slideUp} className="mb-12">
             <div className="flex flex-wrap items-center gap-3 mb-4">
               {project.featured && (
-                <span className="inline-flex items-center gap-1 px-3 py-1 bg-primary-400 text-white rounded-full text-sm font-medium">
+                <span className="inline-flex items-center gap-1 px-3 py-1 bg-primary-400 text-white dark:text-dark-800 rounded-full text-sm font-medium">
                   <Star size={12} />
                   Featured Project
                 </span>

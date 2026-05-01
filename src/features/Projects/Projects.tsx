@@ -67,7 +67,7 @@ export default function Projects({ projects }: ProjectsProps) {
                 onClick={() => setFilter(key as typeof filter)}
                 className={`px-5 py-2 rounded-full font-medium transition-all flex items-center gap-2 ${
                   filter === key
-                    ? 'bg-primary-400 text-white'
+                    ? 'bg-primary-400 text-white dark:text-dark-800'
                     : 'bg-white dark:bg-dark-700 text-dark-600 dark:text-dark-300 hover:bg-dark-100 dark:hover:bg-dark-600'
                 }`}
               >
@@ -84,7 +84,7 @@ export default function Projects({ projects }: ProjectsProps) {
                 key={project.id}
                 variants={staggerItem}
                 whileHover={{ y: -8 }}
-                className="bg-white dark:bg-dark-900 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+                className="bg-white dark:bg-dark-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
               >
                 {/* Project Image Placeholder */}
                 <div className="h-48 bg-gradient-to-br from-primary-400/20 to-primary-600/20 dark:from-primary-400/10 dark:to-primary-600/10 flex items-center justify-center relative">
@@ -99,7 +99,7 @@ export default function Projects({ projects }: ProjectsProps) {
                   {/* Badges */}
                   <div className="absolute top-4 right-4 flex flex-col gap-2">
                     {project.featured && (
-                      <span className="inline-flex items-center gap-1 px-3 py-1 bg-primary-400 text-white rounded-full text-xs font-medium shadow-sm">
+                      <span className="inline-flex items-center gap-1 px-3 py-1 bg-primary-400 text-white dark:text-dark-800 rounded-full text-xs font-medium shadow-sm">
                         <Star size={10} />
                         Featured
                       </span>
