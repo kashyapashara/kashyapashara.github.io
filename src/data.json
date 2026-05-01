@@ -1,0 +1,188 @@
+{
+  "personal": {
+    "name": "Kashyap Ashara",
+    "title": "Technical Lead - Engineering",
+    "tagline": "React • TypeScript • Microfrontends • 8+ Years",
+    "email": "kashyap.ashara@gmail.com",
+    "github": "https://github.com/kash9350",
+    "linkedin": "https://linkedin.com/in/kashyap-ashara"
+  },
+  "about": "Technical Lead with 8+ years of experience building scalable React applications. Specialized in Microfrontend Architecture, Frontend Design Systems, and high-performance web applications. Currently leading React component library management and microfrontend integration. Passionate about clean code, developer experience, and modern frontend patterns.",
+  "skillCategories": [
+    {
+      "id": "frontend-core",
+      "category": "Frontend Technologies",
+      "skills": [
+        { "id": "react", "name": "React.js", "level": 95 },
+        { "id": "typescript", "name": "TypeScript", "level": 90 },
+        { "id": "javascript", "name": "JavaScript (ES6+)", "level": 92 }
+      ]
+    },
+    {
+      "id": "styling",
+      "category": "Styling & UI",
+      "skills": [
+        { "id": "tailwind", "name": "Tailwind CSS", "level": 88 },
+        { "id": "css", "name": "CSS/SCSS", "level": 90 },
+        { "id": "material-ui", "name": "Material-UI", "level": 82 },
+        { "id": "storybook", "name": "Storybook", "level": 85 }
+      ]
+    },
+    {
+      "id": "architecture",
+      "category": "Architecture & Patterns",
+      "skills": [
+        { "id": "microfrontends", "name": "Microfrontends", "level": 88 },
+        { "id": "module-federation", "name": "Module Federation", "level": 85 },
+        { "id": "design-systems", "name": "Design Systems", "level": 84 },
+        { "id": "frontend-arch", "name": "Frontend Architecture", "level": 87 }
+      ]
+    },
+    {
+      "id": "tools",
+      "category": "Tools & Build Systems",
+      "skills": [
+        { "id": "webpack", "name": "Webpack", "level": 82 },
+        { "id": "vite", "name": "Vite", "level": 85 },
+        { "id": "nextjs", "name": "Next.js", "level": 80 },
+        { "id": "rollup", "name": "Rollup", "level": 78 }
+      ]
+    },
+    {
+      "id": "testing",
+      "category": "Testing & Quality",
+      "skills": [
+        { "id": "jest", "name": "Jest", "level": 85 },
+        { "id": "react-testing", "name": "React Testing Library", "level": 88 },
+        { "id": "cypress", "name": "Cypress", "level": 80 },
+        { "id": "performance", "name": "Performance Optimization", "level": 83 }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "crest-armis-project",
+      "company": "Crest Data Systems - Armis Security",
+      "role": "Senior Frontend Engineer",
+      "duration": "2021 - 2024",
+      "location": "Ahmedabad, India",
+      "employmentType": "full-time",
+      "description": "Lead React component library management and microfrontend architecture",
+      "longDescription": "Leading the development and maintenance of a comprehensive React component library integrated with a Rollup-based module federation setup. Designed and implemented multitenancy patterns for enterprise SaaS platform. Managed integration of React microfrontend with existing Angular applications, ensuring seamless cross-framework communication. Focused on developer experience, performance optimization, and design system scalability. Mentored junior developers on React best practices, microfrontend patterns, and frontend architecture principles.",
+      "technologies": ["React", "TypeScript", "Module Federation", "Rollup", "Tailwind CSS", "Storybook", "Jest"],
+      "achievements": [
+        "Architected and implemented React component library used by 50+ developers",
+        "Reduced bundle size by 35% through code splitting and lazy loading",
+        "Implemented module federation reducing build times by 40%",
+        "Mentored 5+ junior developers on frontend architecture"
+      ],
+      "projects": ["project-ui-lib"]
+    },
+    {
+      "id": "crest-linkedin-project",
+      "company": "Crest Data Systems - LinkedIn",
+      "role": "Senior Frontend Engineer",
+      "duration": "2019 - 2021",
+      "location": "Ahmedabad, India",
+      "employmentType": "full-time",
+      "description": "Developed cloud security platform with React and Next.js",
+      "longDescription": "Built and maintained the LinkedIn Cloud Security Platform frontend, serving millions of users. Implemented responsive design with Tailwind CSS and Material-UI. Developed complex data visualization components. Collaborated with backend teams using Python and Node.js APIs. Implemented comprehensive test coverage with React Testing Library and Cypress.",
+      "technologies": ["React", "Next.js", "TypeScript", "Python", "Tailwind CSS", "Material-UI", "Jest"],
+      "achievements": [
+        "Shipped features used by 1M+ daily active users",
+        "Reduced page load time from 4.2s to 1.8s",
+        "Implemented real-time data synchronization",
+        "Led code review standards adoption"
+      ],
+      "projects": ["project-dashboard", "project-security-platform", "project-ui"]
+    },
+    {
+      "id": "exp-ordertive",
+      "company": "Ordertive",
+      "role": "Frontend Engineer",
+      "duration": "2018 - 2019",
+      "location": "Ahmedabad, India",
+      "employmentType": "full-time",
+      "description": "Built e-commerce platform with React and Next.js",
+      "longDescription": "Developed responsive e-commerce platform frontend with React 16 and Next.js. Implemented server-side rendering for improved SEO. Built reusable component library with comprehensive documentation. Optimized performance with code splitting and image optimization.",
+      "technologies": ["React", "Next.js", "Redux", "CSS Modules", "Jest"],
+      "achievements": [
+        "Implemented SSR reducing time-to-interactive by 50%",
+        "Built 30+ reusable components with documentation",
+        "Improved Lighthouse score from 65 to 92"
+      ],
+      "projects": ["project-performance"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-ui-lib",
+      "title": "React Component Library",
+      "description": "Enterprise-grade React component library with Storybook documentation",
+      "longDescription": "Designed and built a comprehensive React component library serving 50+ internal developers. Features 100+ components with full TypeScript support, accessibility compliance, and comprehensive Storybook documentation. Implements design system tokens with Tailwind CSS. Includes automated testing, visual regression testing, and CI/CD pipeline for continuous deployment.",
+      "technologies": ["React", "TypeScript", "Tailwind CSS", "Storybook", "Jest", "Cypress"],
+      "links": {
+        "github": "https://github.com/kash9350",
+        "demo": "https://storybook.example.com"
+      },
+      "featured": true,
+      "companyId": "crest-armis-project",
+      "companyName": "Crest Data Systems",
+      "customer": "Armis Security",
+      "projectType": "internal",
+      "status": "maintained"
+    },
+    {
+      "id": "project-netskope-microfrontend",
+      "title": "Microfrontend Architecture",
+      "description": "Module Federation setup for scalable micro frontends",
+      "longDescription": "Implemented a production-grade microfrontend architecture using Webpack Module Federation. Enables independent development and deployment of multiple frontend applications while sharing dependencies. Includes shared design system, routing coordination, and state management across federated modules. Powers the enterprise SaaS platform serving Fortune 500 customers.",
+      "technologies": ["React", "TypeScript", "Webpack", "Module Federation", "Tailwind CSS"],
+      "featured": true,
+      "companyId": "crest-netskope-project",
+      "companyName": "Crest Data Systems",
+      "customer": "Netskope",
+      "projectType": "internal",
+      "status": "maintained"
+    },
+    {
+      "id": "project-dashboard",
+      "title": "Security Analytics Dashboard",
+      "description": "Real-time security data visualization dashboard for threat monitoring",
+      "longDescription": "Built a comprehensive security analytics dashboard for LinkedIn's cloud security platform with real-time threat data updates. Implemented complex data visualization using D3.js and custom React components. Features advanced filtering, export functionality, and responsive design. Used by security teams to monitor and respond to threats across millions of user accounts.",
+      "technologies": ["React", "TypeScript", "D3.js", "Tailwind CSS", "WebSockets"],
+      "featured": true,
+      "companyId": "exp-linkedin",
+      "companyName": "LinkedIn (via Coursera)",
+      "customer": "LinkedIn Security Team",
+      "projectType": "client",
+      "status": "completed"
+    },
+    {
+      "id": "project-performance",
+      "title": "Performance Optimization Suite",
+      "description": "Toolkit for frontend performance monitoring and optimization",
+      "longDescription": "Created a comprehensive toolkit for monitoring and optimizing frontend performance across the e-commerce platform. Includes tools for bundle analysis, Core Web Vitals tracking, and performance profiling. Used internally by engineering teams to improve application performance, resulting in 40% faster load times.",
+      "technologies": ["React", "TypeScript", "Webpack", "Node.js"],
+      "featured": false,
+      "companyId": "exp-ordertive",
+      "companyName": "Ordertive",
+      "customer": "Internal Engineering Team",
+      "projectType": "internal",
+      "status": "completed"
+    },
+    {
+      "id": "project-ecommerce",
+      "title": "E-Commerce Platform",
+      "description": "Full-featured e-commerce platform with real-time inventory",
+      "longDescription": "Built a complete e-commerce platform frontend with React and Next.js, featuring real-time inventory management, payment integration, and order tracking. Implemented server-side rendering for SEO optimization and progressive web app features for mobile users.",
+      "technologies": ["React", "Next.js", "Redux", "PWA"],
+      "featured": false,
+      "companyId": "exp-ordertive",
+      "companyName": "Ordertive",
+      "customer": "B2B Retail Clients",
+      "projectType": "client",
+      "status": "completed"
+    }
+  ]
+}
