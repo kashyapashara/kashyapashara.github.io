@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { useEffect, useState } from 'react'
 import { Github, Linkedin, Mail, Download, ChevronDown } from 'lucide-react'
 import type { PersonalInfo } from '../../types'
 import { staggerContainer, staggerItem } from '../../utils/animations'
@@ -8,6 +9,23 @@ interface HeroProps {
 }
 
 export default function Hero({ personal }: HeroProps) {
+  const [displayedName, setDisplayedName] = useState('')
+  const name = personal.name
+  
+  useEffect(() => {
+    let currentIndex = 0
+    const interval = setInterval(() => {
+      if (currentIndex <= name.length) {
+        setDisplayedName(name.slice(0, currentIndex))
+        currentIndex++
+      } else {
+        clearInterval(interval)
+      }
+    }, 150) // 150ms per character
+    
+    return () => clearInterval(interval)
+  }, [name])
+
   const handleScrollDown = () => {
     const aboutSection = document.querySelector('#about')
     if (aboutSection) {
@@ -46,7 +64,14 @@ export default function Hero({ personal }: HeroProps) {
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6"
           >
             <span className="text-dark-900 dark:text-white">Hi, I'm </span>
-            <span className="gradient-text">{personal.name}</span>
+            <span className="gradient-text">
+              {displayedName}
+              <motion.span
+                className="inline-block w-0.5 h-[1em] bg-primary-500 ml-1"
+                animate={{ opacity: [1, 0, 1] }}
+                transition={{ repeat: Infinity, duration: 0.8, ease: 'easeInOut' }}
+              />
+            </span>
           </motion.h1>
 
           {/* Title */}
