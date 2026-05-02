@@ -73,8 +73,8 @@
   "experience": [
     {
       "id": "crest-data-systems-netskope",
-      "company": "Crest Data Systems",
-      "role": "Technical Lead",
+      "company": "Crest Data",
+      "role": "Technical Lead(L2)",
       "duration": "2023 - Present",
       "location": "Ahmedabad, India",
       "employmentType": "full-time",
@@ -97,8 +97,8 @@
     },
     {
       "id": "crest-data-systems-lead",
-      "company": "Crest Data Systems",
-      "role": "Technical Lead",
+      "company": "Crest Data",
+      "role": "Technical Lead (L1)",
       "duration": "2021 - 2023",
       "location": "Ahmedabad, India",
       "employmentType": "full-time",
@@ -115,7 +115,7 @@
     },
     {
       "id": "crest-data-systems-devops",
-      "company": "Crest Data Systems",
+      "company": "Crest Data",
       "role": "Senior Software Engineer",
       "duration": "2021 - 2023",
       "location": "Ahmedabad, India",
@@ -133,7 +133,7 @@
     },
     {
       "id": "crest-data-systems-sophos",
-      "company": "Crest Data Systems",
+      "company": "Crest Data",
       "role": "Software Engineer",
       "duration": "2019 - 2021",
       "location": "Ahmedabad, India",
@@ -192,7 +192,7 @@
       "technologies": ["React", "TypeScript", "Webpack", "Module Federation", "Tailwind CSS", "Storybook", "Jest", "Cypress"],
       "featured": true,
       "companyId": "crest-data-systems-netskope",
-      "companyName": "Crest Data Systems",
+      "companyName": "Crest Data",
       "customer": "Netskope",
       "projectType": "client",
       "status": "maintained"
@@ -205,7 +205,7 @@
       "technologies": ["React", "TypeScript", "Material UI", "Storybook", "Jest"],
       "featured": true,
       "companyId": "crest-data-systems-lead",
-      "companyName": "Crest Data Systems",
+      "companyName": "Crest Data",
       "customer": "Armis Security",
       "projectType": "client",
       "status": "completed"
@@ -218,7 +218,7 @@
       "technologies": ["React", "JavaScript", "Python", "Flask", "Azure", "PowerBi", "Jest"],
       "featured": true,
       "companyId": "crest-data-systems-devops",
-      "companyName": "Crest Data Systems",
+      "companyName": "Crest Data",
       "customer": "LinkedIn",
       "projectType": "client",
       "status": "completed"
@@ -231,7 +231,7 @@
       "technologies": ["React", "JavaScript", "Bootstrap", "Python", "Jest"],
       "featured": true,
       "companyId": "crest-data-systems-sophos",
-      "companyName": "Crest Data Systems",
+      "companyName": "Crest Data",
       "customer": "Sophos",
       "projectType": "client",
       "status": "completed"
