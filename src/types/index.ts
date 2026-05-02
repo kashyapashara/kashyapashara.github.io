@@ -11,6 +11,7 @@ export interface Skill {
   id: string;
   name: string;
   level: number; // 1-100
+  trending?: boolean; // Highlight as trending skill
 }
 
 export interface SkillCategory {

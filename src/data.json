@@ -2,19 +2,19 @@
   "personal": {
     "name": "Kashyap Ashara",
     "title": "Technical Lead - Engineering",
-    "tagline": "React • TypeScript • Microfrontends • 8+ Years",
+    "tagline": "React • TypeScript • AI Integration • Microfrontends • 8+ Years",
     "email": "kashyap.dj9350@gmail.com",
     "github": "https://github.com/kash9350",
     "linkedin": "https://linkedin.com/in/kashyap-ashara"
   },
-  "about": "Technical Lead with 8+ years of experience building scalable React applications. Specialized in Microfrontend Architecture, Frontend Design Systems, and high-performance web applications. Currently leading React component library management and microfrontend integration. Passionate about clean code, developer experience, and modern frontend patterns.",
+  "about": "Technical Lead with 8+ years of experience building scalable React applications and AI-powered solutions. Specialized in Microfrontend Architecture, Frontend Design Systems, and high-performance web applications. AI practitioner with hands-on experience integrating advanced language models like CLAUDE into development workflows. Currently leading React component library management and microfrontend integration. Passionate about clean code, developer experience, and modern frontend patterns.",
   "skillCategories": [
     {
       "id": "frontend-core",
       "category": "Frontend Technologies",
       "skills": [
-        { "id": "react", "name": "React.js", "level": 95 },
-        { "id": "typescript", "name": "TypeScript", "level": 90 },
+        { "id": "react", "name": "React.js", "level": 95, "trending": true },
+        { "id": "typescript", "name": "TypeScript", "level": 90, "trending": true },
         { "id": "javascript", "name": "JavaScript (ES6+)", "level": 92 }
       ]
     },
@@ -22,10 +22,10 @@
       "id": "styling",
       "category": "Styling & UI",
       "skills": [
-        { "id": "tailwind", "name": "Tailwind CSS", "level": 88 },
+        { "id": "tailwind", "name": "Tailwind CSS", "level": 88, "trending": true },
         { "id": "css", "name": "CSS/SCSS", "level": 90 },
         { "id": "material-ui", "name": "Material-UI", "level": 82 },
-        { "id": "storybook", "name": "Storybook", "level": 85 }
+        { "id": "storybook", "name": "Storybook", "level": 85, "trending": true }
       ]
     },
     {
@@ -40,12 +40,22 @@
       ]
     },
     {
+      "id": "ai-ml",
+      "category": "AI & Machine Learning",
+      "skills": [
+        { "id": "claude-api", "name": "Claude API Integration", "level": 75, "trending": true },
+        { "id": "ai-workflows", "name": "AI-Powered Development Workflows", "level": 70, "trending": true },
+        { "id": "prompt-engineering", "name": "Prompt Engineering", "level": 75, "trending": true },
+        { "id": "ai-code-assistance", "name": "AI Code Assistance", "level": 75, "trending": true }
+      ]
+    },
+    {
       "id": "tools",
       "category": "Tools & Build Systems",
       "skills": [
         { "id": "webpack", "name": "Webpack", "level": 75 },
-        { "id": "vite", "name": "Vite", "level": 60 },
-        { "id": "nextjs", "name": "Next.js", "level": 75 },
+        { "id": "vite", "name": "Vite", "level": 60, "trending": true },
+        { "id": "nextjs", "name": "Next.js", "level": 75, "trending": true },
         { "id": "rollup", "name": "Rollup", "level": 70 }
       ]
     },
@@ -69,16 +79,18 @@
       "location": "Ahmedabad, India",
       "employmentType": "full-time",
       "description": "Create and maintain a comprehensive React component library integrated with a Rollup-based module federation setup",
-      "longDescription": "Managed the creation and maintenance of a comprehensive React component library integrated with a Rollup-based module federation setup. Designed and implemented multitenancy patterns for enterprise SaaS platform. Managed integration of React microfrontend with existing Angular applications, ensuring seamless cross-framework communication. Focused on developer experience, performance optimization, and design system scalability. Mentored junior developers on React best practices, microfrontend patterns, and frontend architecture principles.",
-      "technologies": ["React", "TypeScript", "Module Federation", "Rollup", "Yarn", "Tailwind CSS", "Storybook", "Jest", "Cypress"],
+      "longDescription": "Managed the creation and maintenance of a comprehensive React component library integrated with a Rollup-based module federation setup. Designed and implemented multitenancy patterns for enterprise SaaS platform. Managed integration of React microfrontend with existing Angular applications, ensuring seamless cross-framework communication. Pioneered AI-powered development workflows using CLAUDE API for code generation, documentation, and developer assistance. Focused on developer experience, performance optimization, and design system scalability. Mentored junior developers on React best practices, microfrontend patterns, and frontend architecture principles.",
+      "technologies": ["React", "TypeScript", "Module Federation", "Rollup", "Yarn", "Tailwind CSS", "Storybook", "Jest", "Cypress", "Claude API"],
       "achievements": [
         "Architected and implemented React component library used by 50+ developers",
         "Reduced bundle size by 35% through code splitting and lazy loading",
+        "Integrated CLAUDE API for automated code generation and documentation",
+        "Implemented AI-powered development workflows reducing development time by 25%",
         "Maintained component library documentation and usage guidelines",
         "Implemented design system consistency across multiple teams",
         "Internationalization support for multi-language applications",
         "Implemented WCAG 2.1 compliance across all components",
-        "Mentored 5+ junior developers on frontend architecture",
+        "Mentored 5+ junior developers on frontend architecture and AI integration",
         "Led code review standards adoption"
       ],
       "projects": ["project-netskope-microfrontend"]

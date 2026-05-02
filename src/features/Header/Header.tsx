@@ -53,10 +53,15 @@ export default function Header({ personal }: HeaderProps) {
           <motion.a
             href="#home"
             onClick={(e) => handleNavClick(e, '#home')}
-            className="text-xl font-bold gradient-text"
+            className="flex items-center gap-3 text-xl font-bold gradient-text"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
+            <img 
+              src="/avatar.png" 
+              alt={personal.name}
+              className="w-12 h-12 rounded-full object-cover border-2 border-primary-500 dark:border-primary-400"
+            />
             {personal.name}
           </motion.a>
 
